@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="kml2csv.xsl" ?><Document>
+<Folder id="Fusiontables">
+<name>Fusiontables folder</name>
+<Style id="BasicStyle">
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+<IconStyle>
+<color>FFFFFFFF</color>
+<scale>1.1</scale>
+<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/><Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-blank_maps.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name><![CDATA[1 Rx Liberty Pharmacy Discount]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 1 Rx Liberty Pharmacy Discount<br>
+<b>Address:</b> 972 E 25TH ST HIALEAH FL 33013<br>
+<b>Street:</b> 972 E 25th St<br>
+<b>Town:</b> Hialeah<br>
+<b>County:</b> Miami-dade<br>
+<b>State:</b> FL<br>
+<b>Zip:</b> 33013<br>
+<b>Phone:</b> (305) 691-6686<br>
+<b>Latitude:</b> 25.84509<br>
+<b>Longitude:</b> -80.2627119
+</div>]]>
+</description>
+<Point>
+<coordinates>
+-80.2627119,25.84509,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Name">
+<value>1 Rx Liberty Pharmacy Discount</value>
+</Data>
+<Data name="Address">
+<value>972 E 25TH ST HIALEAH FL 33013</value>
+</Data>
+<Data name="Street">
+<value>972 E 25th St</value>
+</Data>
+<Data name="Town">
+<value>Hialeah</value>
+</Data>
+<Data name="County">
+<value>Miami-dade</value>
+</Data>
+<Data name="State">
+<value>FL</value>
+</Data>
+<Data name="Zip">
+<value>33013</value>
+</Data>
+<Data name="Phone">
+<value>(305) 691-6686</value>
+</Data>
+<Data name="Longitude">
+<value>-80.2627119</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[1 Stop Pharmacy And Food Mart Inc]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 1 Stop Pharmacy And Food Mart Inc<br>
+<b>Address:</b> 7117 ROOSEVELT AVE JACKSON  HEIGHTS NY 11372<br>
+<b>Street:</b> 7117 Roosevelt Ave<br>
+<b>Town:</b> Jackson  Heights<br>
+<b>County:</b> Queens<br>
+<b>State:</b> NY<br>
+<b>Zip:</b> 11372<br>
+<b>Phone:</b> (718) 899-8200<br>
+<b>Latitude:</b> 40.747104<br>
+<b>Longitude:</b> -73.894374
+</div>]]>
+</description>
+<Point>
+<coordinates>
+-73.894374,40.747104,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Name">
+<value>1 Stop Pharmacy And Food Mart Inc</value>
+</Data>
+<Data name="Address">
+<value>7117 ROOSEVELT AVE JACKSON  HEIGHTS NY 11372</value>
+</Data>
+<Data name="Street">
+<value>7117 Roosevelt Ave</value>
+</Data>
+<Data name="Town">
+<value>Jackson  Heights</value>
+</Data>
+<Data name="County">
+<value>Queens</value>
+</Data>
+<Data name="State">
+<value>NY</value>
+</Data>
+<Data name="Zip">
+<value>11372</value>
+</Data>
+<Data name="Phone">
+<value>(718) 899-8200</value>
+</Data>
+<Data name="Longitude">
+<value>-73.894374</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[10th Avenue Pharmacy]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 10th Avenue Pharmacy<br>
+<b>Address:</b> 2706 W MARTIN LUTHER KING BLVD LOS ANGELES CA 90008<br>
+<b>Street:</b> 2706 W Martin Luther King Blvd<br>
+<b>Town:</b> Los Angeles<br>
+<b>County:</b> Los Angeles<br>
+<b>State:</b> CA<br>
+<b>Zip:</b> 90008<br>
+<b>Phone:</b> (323) 298-7693<br>
+<b>Latitude:</b> 34.010371<br>
+<b>Longitude:</b> -118.322526
+</div>]]>
+</description>
+<Point>
+<coordinates>
+-118.322526,34.010371,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Name">
+<value>10th Avenue Pharmacy</value>
+</Data>
+<Data name="Address">
+<value>2706 W MARTIN LUTHER KING BLVD LOS ANGELES CA 90008</value>
+</Data>
+<Data name="Street">
+<value>2706 W Martin Luther King Blvd</value>
+</Data>
+<Data name="Town">
+<value>Los Angeles</value>
+</Data>
+<Data name="County">
+<value>Los Angeles</value>
+</Data>
+<Data name="State">
+<value>CA</value>
+</Data>
+<Data name="Zip">
+<value>90008</value>
+</Data>
+<Data name="Phone">
+<value>(323) 298-7693</value>
+</Data>
+<Data name="Longitude">
+<value>-118.322526</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[110 Pharmacy And Surgical]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 110 Pharmacy And Surgical<br>
+<b>Address:</b> 459 ROUTE 110 MELVILLE NY 11747<br>
+<b>Street:</b> 459 Route 110<br>
+<b>Town:</b> Melville<br>
+<b>County:</b> Suffolk<br>
+<b>State:</b> NY<br>
+<b>Zip:</b> 11747<br>
+<b>Phone:</b> (631) 421-5454<br>
+<b>Latitude:</b> 40.7638852<br>
+<b>Longitude:</b> -73.423196
+</div>]]>
+</description>
+<Point>
+<coordinates>
+-73.423196,40.7638852,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Name">
+<value>110 Pharmacy And Surgical</value>
+</Data>
+<Data name="Address">
+<value>459 ROUTE 110 MELVILLE NY 11747</value>
+</Data>
+<Data name="Street">
+<value>459 Route 110</value>
+</Data>
+<Data name="Town">
+<value>Melville</value>
+</Data>
+<Data name="County">
+<value>Suffolk</value>
+</Data>
+<Data name="State">
+<value>NY</value>
+</Data>
+<Data name="Zip">
+<value>11747</value>
+</Data>
+<Data name="Phone">
+<value>(631) 421-5454</value>
+</Data>
+<Data name="Longitude">
+<value>-73.423196</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[111 Pharmacy]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 111 Pharmacy<br>
+<b>Address:</b> 111 W BEVERLY BLVD MONTEBELLO CA 90640<br>
+<b>Street:</b> 111 W Beverly Blvd<br>
+<b>Town:</b> Montebello<br>
+<b>County:</b> Los Angeles<br>
+<b>State:</b> CA<br>
+<b>Zip:</b> 90640<br>
+<b>Phone:</b> (323) 724-8111<br>
+<b>Latitude:</b> 34.015281<br>
+<b>Longitude:</b> -118.099439
+</div>]]>
+</description>
+<Point>
+<coordinates>
+-118.099439,34.015281,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Name">
+<value>111 Pharmacy</value>
+</Data>
+<Data name="Address">
+<value>111 W BEVERLY BLVD MONTEBELLO CA 90640</value>
+</Data>
+<Data name="Street">
+<value>111 W Beverly Blvd</value>
+</Data>
+<Data name="Town">
+<value>Montebello</value>
+</Data>
+<Data name="County">
+<value>Los Angeles</value>
+</Data>
+<Data name="State">
+<value>CA</value>
+</Data>
+<Data name="Zip">
+<value>90640</value>
+</Data>
+<Data name="Phone">
+<value>(323) 724-8111</value>
+</Data>
+<Data name="Longitude">
+<value>-118.099439</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[111th Pharma-care Ltd]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Name:</b> 111th Pharma-care Ltd<br>
+<b>Address:</b> 11101 S STATE ST CHICAGO IL 60628<br>
+<b>Street:</b> 11101 S State St<br>
+<b>Town:</b> Chicago<br>
+<b>County:</b> Cook<br>
+<b>State:</b> IL<br>
+<b>Zip:</b> 60628<br>
+<b>Phone:</b> (773) 785-5192<br>
+<b>Latitude:</b> 41.6925743<br>
+<b>Longitude:</b> -87.6230627
+</div>]]>
+</description>
+<Point>
+<coordinates>
+-87.6230627,41.6925743,0
+</coordinates>
+</Point>
+
+<ExtendedData>
+<Data name="Name">
+<value>111th Pharma-care Ltd</value>
+</Data>
+<Data name="Address">
+<value>11101 S STATE ST CHICAGO IL 60628</value>
+</Data>
+<Data name="Street">
+<value>11101 S State St</value>
+</Data>
+<Data name="Town">
+<value>Chicago</value>
+</Data>
+<Data name="County">
+<value>Cook</value>
+</Data>
+<Data name="State">
+<value>IL</value>
+</Data>
+<Data name="Zip">
+<value>60628</value>
+</Data>
+<Data name="Phone">
+<value>(773) 785-5192</value>
+</Data>
+<Data name="Longitude">
+<value>-87.6230627</value>
+</Data>
+</ExtendedData>
+</Placemark>
+
+</Folder>
+</Document>
