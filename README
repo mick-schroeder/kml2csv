@@ -1,0 +1,31 @@
+Google Fusion Tables is a service by Google for managing and visualizing large data sets in the cloud. While working on a project involving large datasets of pharmacy and hospital locations I found Fusion Tables useful especially because it geocoded 60,000 addresses with no apparent rate limitations and has a robust API and JSON support.
+Unfortunately, Google doesn’t allow you to export the Latitude and Longitude coordinates from the geocoded datasets in CSV format only KML format.
+This guide will allow you to convert Google Fusion Table KML to CSV format by using a custom XSL stylesheet.
+
+1. Prepare the data for Google Fusion Tables. Google likes the Addreses to be formated as “street city state zip”. My dataset had these values in separate columns so I used the CONCATENATE function in excel to combine the location information into one column.
+
+2. Double click the little blue box on the lower left corner of the selected cell with the concatenate function to copy it down the entire column. Save your data as a .CSV file to import into Fusion Tables.
+
+3. Import the data into Fusion Tables by clicking “New Table”  > “Import Table” then follow the on-screen instruction
+
+4. To geocode the data click “Visualize” > “Map.” Pay attention to which column Google is using to geocode the dataset. Use “Edit” > “Modify Columns” to choose which columns contain location data.
+
+5. Export the geocoded data by clicking “Export to KML”
+
+6. Download the “kml2csv.xsl’ stylesheet in the same directory as the KML file and Download: KML2CSV.XSL from github
+
+7. Now we have to do some minor editing to the KML file and apply a XSL stylesheet. Open the .KML file in your favorite text editor.
+Find: <kml xmlns=”http://www.opengis.net/kml/2.2″>
+Replace with: <?xml-stylesheet type=”text/xsl” href=”kml2csv.xsl” ?>
+
+8. Delete: </kml>
+
+9. Save the file in .XML format
+
+10. Open the .XML file you just saved in Firefox (Google Chrome DID NOT work for me) to let it parse the file with the XSL stylesheet to convert the XML into a CSV format (this might with a large file my computer was unresponsive for 10-15 seconds so have patience)
+
+11. Copy and Paste the output into your favorite text editor (“File > Save as” in Firefox adds newlines and messes up the file)
+
+12. Save the file as .CSV (in textedit I had to hit “Format > Make Plain Text” then save)
+
+13. Now you should be able to import the .CSV into Excel complete with Latitude, Longitude, and Altitude coordinates
